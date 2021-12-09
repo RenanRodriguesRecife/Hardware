@@ -16,6 +16,21 @@ O deadlock independe da quantidade de recursos disponíveis no sistema;
 
 
 
+Condições necessárias para a ocorrência de deadlock
+
+As três primeiras caracterizam um modelo de sistema, e a última é o deadlock propriamente dito
+
+- Condição de exclusão mútua. Em um determinado instante, cada recurso está em uma de duas situações: ou associado a um único processo ou disponível.
+- Condição de posso e espera. Processos que, em um determinado instante, retêm recursos concedidos anteriormente podem requisitar novos recursos.
+- Condição de não preempção. Recursos concedidos previamente a um processo não podem ser tomados a força desse processo, eles devem ser explicitamente liberados pelo processo que os retém.
+- Condição de espera circular. Deve existir u encadeamento circular de dois ou mais processos; cada um deles encontra-se à espera de um recurso que está sendo usado pelo membro seguinte dessa cadeia.
+
+Todas essas condições devem ocorrer simultaneamente para que ocorra um deadlock. Se uma dessas condições não ocorrer, não haverá deadlock.
+
+
+
+
+
 FONTES: 
 - https://pt.wikipedia.org/wiki/Deadlock
 - https://www.devmedia.com.br/introducao-ao-deadlock/24794
