@@ -29,6 +29,24 @@ Todas essas condições devem ocorrer simultaneamente para que ocorra um deadloc
 
 
 
+Representação de deadlock em grafos
+
+O processo é representado por um quadrado
+
+Recurso por um círculo
+
+Quando um processo solicita um recurso, uma seta é dirigida do quadrado ao círculo. Quando um recurso é alocado a um processo, uma seta é dirigida do círculo ao quadrado.
+
+<img src="../.assets/DeadlockGraph.png">
+
+Na figura do exemplo, podem-se ver dois processos diferentes (A e B), cada um com um recurso diferente alocado (R1 e R2). Nesse exemplo clássico de deadlock, é facilmente visível a condição de espera circular em que os processos se encontram, onde cada um solicita o recurso que está alocado ao outro processo.
+
+
+
+
+Métodos para tratar deadlocks
+
+
 
 
 FONTES: 
