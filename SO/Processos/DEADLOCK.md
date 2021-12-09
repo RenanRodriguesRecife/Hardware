@@ -46,7 +46,7 @@ Na figura do exemplo, podem-se ver dois processos diferentes (A e B), cada um co
 
 Métodos para tratar deadlocks
 
-
+(continuar : https://pt.wikipedia.org/wiki/Deadlock)
 
 
 FONTES: 
