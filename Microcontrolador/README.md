@@ -20,3 +20,19 @@ FLASH
 
 FLASH: Memória não volátil, utilizada para armazenar o firmware
 do microcontrolador.
+
+OSC
+
+Oscilador: Para o funcionamento do microcontrolador é necessário uma fonte de clock, para ditar o ritmo em que as instruções são executadas.
+A maior parte dos microcontroladores possuem osciladores internos e externos.
+Os osciladores internos possuem uma precisão limitada, com 1% de tolerância ou mais. Isto limita suas aplicações em relógios, por exemplo.
+Ninguém quer um relógio que atrasa 10 minutos por dia.
+Já os externos, normalmente a cristal, permitem precisões bem melhores de até algumas parte por milhão.
+
+GPIO
+
+GPIO: General Purpose Input Output.
+É a seção responsável pelo controle, acionamento e leitura dos pinos dos microcontroladores.
+Os pinos podem operar como entradas ou saídas.
+Boa parte dos microcontroladores permitem habilitar resistores internos de pull-up ou pull-down nos pinos. Estes resistores tem valores da ordem de dezenas de kilo ohms.
+No modo de saída é possível operar normalmente em dois modos: push-pull ou open dran.
