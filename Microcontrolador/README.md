@@ -40,3 +40,7 @@ No modo de saída é possível operar normalmente em dois modos: push-pull ou op
 TIMER
 
 Um timer de um microcontrolador permite a medição de tempo, contagem de eventos. Pode ser utilizado como base de tempo para outros periféricos do microcontrolador, como por exemplo disparar a conversões períodicas do conversor analógico-digital.
+
+PWM
+
+PWM: Pulse Width Modulation: Intimamente ligado ao TIMER, permite gerar sinais com duty cycle (percentual da largura do pulso) e período variáveis.
