@@ -15,3 +15,8 @@ CISC: Complex Instruction Set Computer. Implementa um grande número de instruç
 RAM
 
 RAM: Random Access Memory: Armazena os dados temporários da execução do firmware. É um tipo de memória volátil, onde os dados são perdidos quando o microcontrolador é deslidado.
+
+FLASH
+
+FLASH: Memória não volátil, utilizada para armazenar o firmware
+do microcontrolador.
