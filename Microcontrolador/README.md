@@ -44,3 +44,26 @@ Um timer de um microcontrolador permite a medição de tempo, contagem de evento
 PWM
 
 PWM: Pulse Width Modulation: Intimamente ligado ao TIMER, permite gerar sinais com duty cycle (percentual da largura do pulso) e período variáveis.
+
+ADC
+
+ADC: Analog-Digital Converter. Permite converter tensões analógicas em valores digitais.
+A maior parte dos microcontroladores possuem ADC's com resoluções que podem ir de 8 a 16 bits.
+Podem amostrar sinais em taxas que vão desde algumas dezenas de milhares de amostras por segundo até alguns milhões de amostras por segundo.
+
+UART
+
+UART: Universal Asynchrounous
+Receiver/Transmiter.
+Permite transmitir dados serialmente utilizando dois ou mais pinos.
+Devido a comunicação ser assincrona não é necessário um sinal de clock comum ao transmissor e receptor.
+Pode ser acoplada a CI's transceivers, para transmitir dados a distâncias maiores. Por exemplo MAX232 para RS-232, 75176 para RS-485 ou RS-422.
+
+
+i2C
+
+SPI
+
+
+
+FONTE: https://www.instagram.com/p/CZCV-urMobh/
