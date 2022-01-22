@@ -36,3 +36,7 @@ GPIO: General Purpose Input Output.
 Os pinos podem operar como entradas ou saídas.
 Boa parte dos microcontroladores permitem habilitar resistores internos de pull-up ou pull-down nos pinos. Estes resistores tem valores da ordem de dezenas de kilo ohms.
 No modo de saída é possível operar normalmente em dois modos: push-pull ou open dran.
+
+TIMER
+
+Um timer de um microcontrolador permite a medição de tempo, contagem de eventos. Pode ser utilizado como base de tempo para outros periféricos do microcontrolador, como por exemplo disparar a conversões períodicas do conversor analógico-digital.
